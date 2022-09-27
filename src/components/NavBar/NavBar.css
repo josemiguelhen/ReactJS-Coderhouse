@@ -1,0 +1,28 @@
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list li{
+    margin: 10px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.chango{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
