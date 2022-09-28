@@ -1,9 +1,9 @@
 import "./ItemListContainer.css"
 
-export const ItemListContainer = ({greeting, title}) => {
+export const ItemListContainer = ({productos, title}) => {
     return (
         <div className="contenedor">
-            {greeting} - {title}
+            <p>{title} de {productos}</p>
         </div>
     )
 }
