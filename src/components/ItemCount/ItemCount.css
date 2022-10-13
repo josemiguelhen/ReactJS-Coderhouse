@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contador{
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+}
+
+.contenedor_botones{
+    margin: 0 auto;
+}
+
+.contenedor_botones button{
+    height: fit-content;
+    width: 40px;
+    padding: 7px;
+    border: 1px solid;
+}
+
+.contenedor_botones .menos{
+    border-right: none;
+    background-color: lightcoral;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.contenedor_botones .chango{
+    margin-top: 0px;
+    width: fit-content;
+}
+
+.contenedor_botones .mas{
+    border-left: none;
+    background-color: lightgreen;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.menos:disabled{
+    background-color: grey;
+}
+
+.mas:disabled{
+    background-color: grey;
+}
+

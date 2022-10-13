@@ -1,0 +1,15 @@
+.aaa{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+}
+
+.aaa p{
+    font-size: 20pt;
+}

@@ -1,8 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .contenedor {
     margin: 0 auto;
-    height: 80vh;
-    width: 90vw;
+    margin-top: 10px;
+    width: 99%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
     background-color: lightblue;
+    border: 2px solid lightseagreen;
 }
 
 p{
