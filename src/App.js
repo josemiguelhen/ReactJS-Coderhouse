@@ -1,17 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-import  {ItemListContainer} from "./components/ItemListContainer/ItemListContainer";
-import {NavBar} from "./components/NavBar/NavBar";
+import React from 'react';
 
+import { ItemListContainer } from './components/Desafios/ItemListContainer/ItemListContainer';
+import { Navbar } from './components/Desafios/NavBar/NavBar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ContactoPage } from './components/Desafios/ContactoPage/ContactoPage';
+import {ItemDetailContainer} from "./components/Desafios/ItemDetailContainer/ItemDetailContainer"
 function App() {
-  return(
-    <div className="App">
-      <NavBar/>
-      <ItemListContainer greeting = "Productos"/>
-
-    </div>
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <div>
+          <Navbar/>
+          <ItemListContainer/>
+          <Routes>
+            <Route path="/inicio" element={<ItemListContainer/>}/>
+            <Route path="/contacto" element={<ContactoPage/>}/>
+            <Route path="/ropa/:categoryId" element={<ItemListContainer/>}/>
+            <Route path="/item/:id" element={<ItemDetailContainer/>}/>
+          </Routes>
+          <footer>derechos reservados</footer>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
 
