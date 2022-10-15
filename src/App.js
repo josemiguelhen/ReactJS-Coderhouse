@@ -1,31 +1,28 @@
 import './App.css';
-import React from 'react';
 
-import { ItemListContainer } from './components/Desafios/ItemListContainer/ItemListContainer';
-import { Navbar } from './components/Desafios/NavBar/NavBar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ContactoPage } from './components/Desafios/ContactoPage/ContactoPage';
-import {ItemDetailContainer} from "./components/Desafios/ItemDetailContainer/ItemDetailContainer"
+import  {BrowserRouter, Routes, Route} from "react-router-dom"
+
+import {NavBar} from "./components/Desafios/NavBar/NavBar"
+import ItemListContainer from "./components/Desafios/ItemListContainer/ItemListContainer"
+import ItemDetailContainer from "./components/Desafios/ItemDetailContainer/ItemDetailContainer"
+import Cart from "./components/Desafios/Cart/Cart"
+
+
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <div>
-          <Navbar/>
-          <ItemListContainer/>
-          <Routes>
-            <Route path="/inicio" element={<ItemListContainer/>}/>
-            <Route path="/contacto" element={<ContactoPage/>}/>
-            <Route path="/ropa/:categoryId" element={<ItemListContainer/>}/>
-            <Route path="/item/:id" element={<ItemDetailContainer/>}/>
-          </Routes>
-          <footer>derechos reservados</footer>
-        </div>
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <NavBar/>
+        <Routes>
+          <Route path='/' element={<ItemListContainer/>}/>
+          <Route path='/categoria/:categoriaId' element={<ItemListContainer/>}/>
+          <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
+          <Route path='/Cart' element={<Cart/>}/>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
 export default App;
-
 
