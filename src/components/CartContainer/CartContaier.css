@@ -1,0 +1,17 @@
+.productosChango{
+    border: 2px solid ;
+    width: 98%;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.productosChango button{
+    border: 1px solid;
+    padding: 5px;
+}
+
+.precioTotal, .productosTotal{
+    font-weight: bold;
+    margin-top: 20px;
+}

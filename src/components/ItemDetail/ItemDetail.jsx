@@ -1,32 +1,29 @@
 import "./ItemDetail.css";
-import { useState } from "react";
 import { ItemCount } from "../ItemCount/ItemCount";
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext.js";
 
 export const ItemDetail = ({ item }) => {
+    
+    const {addProduct} = useContext(CartContext);
 
-    const [contador, setContador] = useState(0);
-
-    const addProduct = (variable1) => {
-        setContador(variable1);
+    const agregarProducto = (quantity) => {
+        addProduct(item, quantity);
     }
-
-    const mostrarTexto = () => {
-        
-    }
-
 
     return (
         <div className="container">
-            {/* <p>item detail</p> */}
+            <p>item detail</p>
             <div className="image">
                 <img src={item.image} alt={item.title} />
             </div>
             <div className="product">
-                <h4>{item.title}</h4>
-                <h5>$ { item.price }</h5>
+                <h3>{item.title}</h3>
+                <h3>$ {item.price}</h3>
+                <h6>{item.details} { item.platforms }</h6>
+                <p>Stock disponible: {item.stock}</p>
             </div>
-            <p>productos agregados: {contador}</p>
-            <ItemCount stock={10} initial={1} onAdd={addProduct}showText={mostrarTexto}/>
+            <ItemCount stock={item.stock} initial={1} onAdd={agregarProducto}/>
         </div>
     );
 };
