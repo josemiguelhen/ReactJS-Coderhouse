@@ -15,3 +15,44 @@
     font-weight: bold;
     margin-top: 20px;
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+    border: 2px solid;
+    width: 50%;
+}
+
+.formulario input{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid ;
+}
+
+.formulario button{
+    width: 10rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid;
+}
+
+.formulario button:hover{
+    background-color: green;
+}
+
+.update{
+    width: 12rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid;
+}
+
+.vaciar button{
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
