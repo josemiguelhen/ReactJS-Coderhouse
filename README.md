@@ -1,18 +1,18 @@
-# Proyecto React Coderhouse, Comisión 38120
+# Proyecto React JS Coderhouse, Comisión 38120
 
 ### Descripción
-El tema de la página es sobre la venta de videojuegos, consolas y accesorios de las mismas.
+El tema de la página es respecto a la venta de ropa estampada; ya sea en poleras manga corta, poleras manga larga, poleras mnaga 3/4 o polerones canguro .
 
 ### Instalación
 - Instalar Git y NodeJS por `npm` (Versiones 2.37.3 y 16.17.0)
-- Clonar repositorio con `git clone https://github.com/Isidro-Molina/Proyecto-React`
+- Clonar repositorio con `git clone https://github.com/josemiguelhen/ReactJS-Coderhouse.git`
 - Iniciar proyecto con `npm start`
 
-### Construido con:
+### Elaborado con:
 - HTML5
 - CSS3
 - JavaScript
-- ReactJS
+- React JS
 - Firebase
 
 ### Dependencias 
@@ -34,10 +34,10 @@ El tema de la página es sobre la venta de videojuegos, consolas y accesorios de
 ```
 
 ### Observación
-No diseñada para dispositivos móviles/tabletas.
+La página no fue diseñada para dispositivos móviles o tabletas.
 
 ### Autor
-**[Isidro Molina](https://www.linkedin.com/in/isidro-molina/)**
+**[José Henríquez](www.linkedin.com/in/josé-miguel-henríquez-arrau-sociologo-fullstack-web)**
 
 
 

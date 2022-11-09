@@ -9,7 +9,7 @@ export const CartWidget = () => {
 
     return (
         <div>
-            <FontAwesomeIcon className="chango" icon={faCartShopping} />
+            <FontAwesomeIcon className="prodT" icon={faCartShopping} />
             <span>{getTotalProducts()}</span>
         </div>
     )

@@ -1,35 +1,110 @@
-import fifa23 from '../../assets/productos/fifa23.webp'
-import codMW from '../../assets/productos/codMW.webp'
-import nba23 from '../../assets/productos/NBA23.webp'
-import ragnarok from '../../assets/productos/Ragnarok.webp'
-import playStandard from '../../assets/productos/playStandard.jpg'
-import playDigital from '../../assets/productos/playDigital.png'
-import xbox from '../../assets/productos/xbox.jpg'
-import nSwitch from '../../assets/productos/switch.jpg'
-import playController from '../../assets/productos/playController.webp'
-import xboxController from '../../assets/productos/xboxController.jpg'
-import nSwitchController from '../../assets/productos/nSwitchController.jpg'
+import pmc1 from '../../assets/productos/musica1.jpg'
+import pmc2 from '../../assets/productos/musica3.jpg'
+import pmc3 from '../../assets/productos/musica4.jpg'
+import pmc4 from '../../assets/productos/anime2.jpg'
+import pmc5 from '../../assets/productos/anime3.jpg'
+import pmc6 from '../../assets/productos/anime4.jpg'
+import pmc7 from '../../assets/productos/juegos2.jpg'
+import pmc8 from '../../assets/productos/juegos3.jpg'
+import pmc9 from '../../assets/productos/juegos4.jpg'
+import pml1 from '../../assets/productos/poleramangalarga1.jpg'
+import pml2 from '../../assets/productos/poleramangalarga2.jpg'
+import pml3 from '../../assets/productos/poleramangalarga3.jpg'
+import pml4 from '../../assets/productos/poleramangalarga4.jpg'
+import pml5 from '../../assets/productos/poleramangalarga5.jpg'
+import pml6 from '../../assets/productos/poleramangalarga6.jpg'
+import pml7 from '../../assets/productos/poleramangalarga7.jpg'
+import pml8 from '../../assets/productos/poleramangalarga8.jpg'
+import pml9 from '../../assets/productos/poleramangalarga9.jpg'
+import pmtc1 from '../../assets/productos/poleramangatrescuartos1.jpg'
+import pmtc2 from '../../assets/productos/poleramangatrescuartos2.jpg'
+import pmtc3 from '../../assets/productos/poleramangatrescuartos3.jpg'
+import pmtc4 from '../../assets/productos/poleramangatrescuartos4.jpg'
+import pmtc5 from '../../assets/productos/poleramangatrescuartos5.jpg'
+import pmtc6 from '../../assets/productos/poleramangatrescuartos6.jpg'
+import pmtc7 from '../../assets/productos/poleramangatrescuartos7.jpg'
+import pmtc8 from '../../assets/productos/poleramangatrescuartos8.jpg'
+import pmtc9 from '../../assets/productos/poleramangatrescuartos9.jpg'
+import pc1 from '../../assets/productos/poleroncanguro1.jpg'
+import pc2 from '../../assets/productos/polerocanguro2.jpg'
+import pc3 from '../../assets/productos/polerocanguro3.jpg'
+import pc4 from '../../assets/productos/poleroncanguro4.jpg'
+import pc5 from '../../assets/productos/poleroncaguro5.jpg'
+import pc6 from '../../assets/productos/poleroncanguro6.jpg'
+import pc7 from '../../assets/productos/poleroncanguro7.jpg'
+import pc8 from '../../assets/productos/poleroncanguro8.jpg'
+import pc9 from '../../assets/productos/poleroncanguro9.jpg'
 
 export const arregloProductos = [
-    { id: 1, title: 'FIFA 23', price: 70, image: fifa23, details: 'FIFA 23 es un videojuego de simulación de fútbol publicado por Electronic Arts. Es la trigésima y última entrega de la serie FIFA desarrollada por EA Sports.', stock: '10', platforms:'Disponible en: PS4, PS5, Xbox One, Xbox Series X, PC, Nintendo Switch.', categoria: 'juegos' },
+    { id: 1, title: 'Polera Pink Floyd blanca', price: 20, pictureUrl: pmc1, details: 'Polera blanca manga corta hombre Pink Floyd.', stock: '15', categoria: 'mangaCorta' },
     
-    { id: 2, title: 'Call of Duty: Modern Warfare II', price: 70, image: codMW, details: 'Call of Duty: Modern Warfare II es un juego de disparos en primera persona de 2022. Es una secuela indirecta del juego lanzado en 2019 y sirve como la decimonovena entrega de la serie general de Call of Duty.', stock: '6', platforms:'Disponible en: PS4, PS5, Xbox One, Xbox Series X, PC.', categoria: 'juegos' },
+    { id: 2, title: 'Polera New kids on the block blanca', price: 25, pictureUrl: pmc2, details: 'Polera blanca manga corta hombre New kids on the block.', stock: '5', categoria: 'mangaCorta' },
     
-    { id: 3, title: 'God of War: Ragnarok', price: 70, image: ragnarok, details: 'God of War Ragnarök es un próximo videojuego de acción y aventuras desarrollado por Santa Monica Studio y publicado por Sony Interactive Entertainment. Será la novena entrega de la serie God of War, la novena cronológicamente y la secuela de God of War de 2018. Basado libremente en la mitología nórdica. Sirviendo como el final de la era nórdica de la serie, el juego cubrirá Ragnarök, una serie de eventos que provocan el fin de los días y representa la muerte de algunos de los dioses nórdicos.', stock: '5', platforms:'Disponible en: PS4, PS5.', categoria: 'juegos' },
+    { id: 3, title: 'Polera I am Hip Hop negra', price: 20, pictureUrl: pmc3, details: 'Polera negra manga corta hombre I am hip hop.', stock: '10', categoria: 'mangaCorta' },
     
-    { id: 4, title: 'NBA 2K23', price: 70, image: nba23, details: 'NBA 2K23 es un videojuego de baloncesto desarrollado por Visual Concepts y publicado por 2K Sports. Es la entrega número 24 de la franquicia NBA 2K y el sucesor de NBA 2K22.', stock: '10', platforms:'Disponible en: PS4, PS5, Xbox One, Xbox Series X|S, PC, Nintendo Switch.', categoria: 'juegos' },
+    { id: 4, title: 'Polera Naruto negra', price: 20, pictureUrl: pmc4, details: 'Polera negra manga corta hombre Naruto.', stock: '15', categoria: 'mangaCorta' },
     
-    { id: 5, title: 'Playstation 5 Standard Edition', price: 500, image: playStandard, details:'La PlayStation 5 (PS5) es una consola de videojuegos para el hogar desarrollada por Sony Interactive Entertainment. Anunciado en 2019 como el sucesor de PlayStation 4.', stock:'10', categoria: 'consolas' },
+    { id: 5, title: 'Polera Totoro negra', price: 25, pictureUrl: pmc5, details:'Polera negra manga corta hombre Totoro.', stock:'5', categoria: 'mangaCorta' },
     
-    { id: 6, title: 'Playstation 5 Digital Edition', price: 400, image: playDigital, details:'La PlayStation 5 (PS5) es una consola de videojuegos para el hogar desarrollada por Sony Interactive Entertainment. Anunciado en 2019 como el sucesor de PlayStation 4. La PS5 edición digital es una versión completamente digital de la consola PS5 que no trae unidad de disco.', stock:'8', categoria: 'consolas' },
+    { id: 6, title: 'Polera Ranma 1/2 blanca', price: 20, pictureUrl: pmc6, details:'Polera blanca manga corta hombre Ranma 1/2.', stock:'8', categoria: 'mangaCorta' },
     
-    { id: 7, title: 'Xbox Series X', price: 500, image: xbox, details:'La Xbox Series X es una consola de videojuegos para el hogar desarrollada por Microsoft. Es la cuarta generación de la familia de consolas Xbox, sucediendo a Xbox One.', stock:'10', categoria: 'consolas' },
+    { id: 7, title: 'Polera Fornite blanca', price: 25, pictureUrl: pmc7, details:'Polera blanca manga corta hombre Fornite.', stock:'7', categoria: 'mangaCorta' },
     
-    { id:8, title: 'Nintendo Switch', price: 300, image: nSwitch, details:'La Nintendo Switch es una consola de videojuegos desarrollada por Nintendo y lanzada en todo el mundo en la mayoría de las regiones el 3 de marzo de 2017. La consola en sí es una tableta que se puede acoplar para usar como consola doméstica o como dispositivo portátil, lo que la convierte en una consola híbrida.', stock:'15', categoria: 'consolas' },
+    { id: 8, title: 'Polera Minecraft blanca', price: 20, pictureUrl: pmc8, details:'Polera blanca manga corta hombre Minecraft.', stock:'9', categoria: 'mangaCorta' },
     
-    { id: 9, title: 'Playstation 5 Controller', price: 70, image: playController, details:'El controlador inalámbrico DualSense para PS5 ofrece retroalimentación háptica inmersiva, disparadores adaptativos dinámicos y un micrófono incorporado, todo integrado en un diseño icónico.', stock:'20', categoria: 'accesorios' },
+    { id: 9, title: 'Polera Free fire negra', price: 25, pictureUrl: pmc9, details:'Polera negra manga corta hombre Free fire.', stock:'6', categoria: 'mangaCorta' },
     
-    { id: 10, title: 'Xbox Series X Controller', price: 60, image: xboxController, details:'El controlador mantiene el diseño general que se encuentra en el controlador Xbox 360, pero con varios ajustes en su diseño, como una forma revisada, palancas analógicas rediseñadas, botones laterales y gatillos, junto con nuevos motores de vibración dentro de los gatillos para permitir háptica direccional. retroalimentación.', stock:'20', categoria: 'accesorios' },
+    { id: 10, title: 'Polera ACDC blanca', price: 30, pictureUrl: pml1, details:'Polera blanca manga larga hombre ACDC.', stock:'10', categoria: 'mangaLarga' },
     
-    {id:11, title:'Nintendo Switch Pro Controller', price:70, image: nSwitchController, details:'El Nintendo Switch Pro Controller es un controlador de juego fabricado y lanzado por Nintendo para su uso con la consola de videojuegos Nintendo Switch. Es un controlador alternativo al Joy-Con.', stock:'20',categoria:'accesorios'},
+    {id: 11, title:'Polera Aerosmith blanca', price: 35, pictureUrl: pml2, details:'Polera blanca manga larga hombre Aerosmith.', stock:'15',categoria:'mangaLarga'},
+
+    {id: 12, title:'Polera Alice in Chains blanca', price:30, pictureUrl: pml3, details:'Polera blanca manga larga hombre Alice in chains.', stock:'8',categoria:'mangaLarga'},
+
+    {id: 13, title:'Polera Inglourious Basterds blanca', price: 35, pictureUrl: pml4, details:'Polera blanca manga larga hombre Inglourius Basterds.', stock:'12',categoria:'mangaLarga'},
+
+    {id: 14, title:'Polera Beetlejuice negra', price: 30, pictureUrl: pml5, details:'Polera blanca manga larga hombre Beetlejuice.', stock:'20',categoria:'mangaLarga'},
+
+    {id: 15, title:'Back to the future negra', price: 35, pictureUrl: pml6, details:'Polera negra manga larga hombre Back to the future.', stock:'11',categoria:'mangaLarga'},
+
+    {id: 16, title:'Polera Black Mirror negra', price: 30, pictureUrl: pml7, details:'Polera negra manga larga hombre Black Mirror.', stock:'5',categoria:'mangaLarga'},
+
+    {id: 17, title:'Polera Better Call Saul blanca', price: 35, pictureUrl: pml8, details:'Polera negra manga larga hombre Better call saul.', stock:'9',categoria:'mangaLarga'},
+
+    {id: 18, title:'Polera Breaking bad negra', price: 30, pictureUrl: pml9, details:'Polera negra manga larga hombre Breaking bad.', stock:'10',categoria:'mangaLarga'},
+
+    {id: 19, title:'Polera Alien negra', price: 40, pictureUrl: pmtc1, details:'Polera negra manga 3/4 hombre Alien.', stock:'15',categoria:'mangaTrescuartos'},
+
+    {id: 20, title:'Polera Back to the future negra', price: 45, pictureUrl: pmtc2, details:'Polera negra manga 3/4 hombre Back to the future.', stock:'20',categoria:'mangaTrescuartos'},
+
+    {id: 21, title:'Polera Black swan blanca', price: 40, pictureUrl: pmtc3, details:'Polera blanca manga 3/4 hombre Black swan .', stock:'20',categoria:'mangaTrescuartos'},
+
+    {id: 22, title:'Polera Shingueki no kyojin', price: 45, pictureUrl: pmtc4, details:'Polera negra manga 3/4 hombre Shingueki no Kyojin.', stock:'8',categoria:'mangaTrescuartos'},
+
+    {id:23, title:'Polera Naruto negra', price: 45, pictureUrl: pmtc5, details:'Polera negra manga 3/4 hombre Naruto.', stock:'6',categoria:'mangaTrescuartos'},
+
+    {id: 24, title:'Polera Naruto blanca', price: 40, pictureUrl: pmtc6, details:'Polera blanca manga 3/4 hombre Naruto.', stock:'12',categoria:'mangaTrescuartos'},
+
+    {id: 25, title:'Polera Breaking bad negra', price: 40, pictureUrl: pmtc7, details:'Polera negra manga 3/4 hombre Breaking bad.', stock:'12',categoria:'mangaTrescuartos'},
+
+    {id: 26, title:'Polera Game of thrones negra', price: 40, pictureUrl: pmtc8, details:'Polera negra manga 3/4 hombre Games of thrones.', stock:'15',categoria:'mangaTrescuartos'},
+
+    {id: 27, title:'Polera Stranger Things blanca', price: 45, pictureUrl: pmtc9, details:'Polera blanca manga 3/4 hombre Stranger things.', stock:'25',categoria:'mangaTrescuartos'},
+
+    {id: 28, title:'Poleron Alien X negro', price: 50, pictureUrl: pc1, details:'Poleron canguro negro hombre Alien X.', stock:'11',categoria:'canguro'},
+
+    {id: 29, title:'Poleron Alien negro', price: 55, pictureUrl: pc2, details:'Poleron canguro negro hombre Alien.', stock:'8',categoria:'canguro'},
+
+    {id: 30, title:'Poleron An american werewolf negro', price: 50, pictureUrl: pc3, details:'Poleron canguro negro hombre An american werewolf negro.', stock:'8',categoria:'canguro'},
+
+    {id: 31, title:'Poleron Apocalypse now negro', price: 55, pictureUrl: pc4, details:'Poleron canguro negro hombre Apocalypse now negro.', stock:'10',categoria:'canguro'},
+
+    {id: 32, title:'Poleron A space odyssey negro', price: 50, pictureUrl: pc5, details:'Poleron canguro negro hombre A space odyssey negro.', stock:'10',categoria:'canguro'},
+
+    {id: 33, title:'Poleron I am hip hop negro', price: 50, pictureUrl: pc6, details:'Poleron canguro negro hombre I am hip hop.', stock:'9',categoria:'canguro'},
+
+    {id: 34, title:'Poleron Massive attack negro', price: 55, pictureUrl: pc7, details:'Poleron canguro negro hombre Massive attack.', stock:'15',categoria:'canguro'},
+
+    {id: 35, title:'Poleron Joy division negro', price: 50, pictureUrl: pc8, details:'Poleron canguro negro hombre Joy division.', stock:'15',categoria:'canguro'},
+
+    {id: 36, title:'Poleron Run dmc negro', price: 55, pictureUrl: pc9, details:'Poleron canguro negro hombre RUN DMC .', stock:'8',categoria:'canguro'},
 ]

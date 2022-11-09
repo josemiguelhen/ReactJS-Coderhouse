@@ -43,16 +43,16 @@ export const CartContainer = () => {
             {
                 productosCarrito.length > 0 ?
                 <div>
-                    {compraId && <p>Su compra fue realizada exitosamente! Este es su numero de orden: {compraId}</p>}
+                    {compraId && <p>Su compra fue realizada de forma existosa, muchas gracias! Este es su numero de su orden: {compraId}</p>}
                     {
                     productosCarrito.map((producto) => (
-                        <div className="productosChango">
+                        <div className="productosOnda">
                             <h3>{producto.title}</h3>
-                            <img src={producto.image} alt={producto.title}/>
+                            <img src={producto.pictureUrl} alt={producto.title}/>
                             <p>Cantidad que llevas: { producto.quantity }</p>
                             <h4>Precio por unidad: {producto.price}</h4>
                             <h4>Precio por cantidad: {producto.quantityPrice}</h4>
-                            {/* ponemos la funcion de tipo flecha xq le estamos pasando un parametro, sino no es necesaria */}
+                            {/* ponemos la funcion de tipo flecha porque le estamos pasando un parametro, sino no es necesaria */}
                             <button onClick={() => removeItem(producto.id)}>Eliminar</button>
                         </div>
                     ))
