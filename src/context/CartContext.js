@@ -36,11 +36,7 @@ export const CartProvider = ({children}) => {
 
     // sumamos todos los precios de los productos agregados para obtener el precio total
     const getTotalPrice = () => {
-        //let acc = 0;
-        // for(let i =0; i<arreglo.length;i++){
-        //     acc = acc + arreglo[i].quantityPrice
-        // }
-        
+   
         // reduce nos permite acumular valores en una variable y esa variable al final es el valor de toda la operacion. Ese valor ya podemos guardarlo en otra variable. reduce recibe un callback con 2 parametros, el acumulador que guarda los valores que se van agregando y el item. el valor inicial del acumulador es 0. Una vez que termina, acc va a tener un valor final, que nos lo devuelve el return.
         const precioTotal = productosCarrito.reduce((acc, curr) => acc + curr.quantityPrice, 0);
         return precioTotal;

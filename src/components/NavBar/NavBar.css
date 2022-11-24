@@ -1,4 +1,4 @@
-.navegacion{
+.navigation{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,6 +14,7 @@
 }
 
 .list{
+    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

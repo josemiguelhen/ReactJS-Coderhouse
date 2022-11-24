@@ -2,6 +2,7 @@ import "./ItemDetail.css";
 import { ItemCount } from "../ItemCount/ItemCount";
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext.js";
+import { Link, NavLink } from 'react-router-dom';
 
 export const ItemDetail = ({ item }) => {
     
@@ -13,7 +14,6 @@ export const ItemDetail = ({ item }) => {
 
     return (
         <div className="container">
-            {/* <p>item detail</p> */}
             <div className="image">
                 <img src={item.pictureUrl} alt={item.title} />
             </div>
@@ -24,6 +24,10 @@ export const ItemDetail = ({ item }) => {
                 <p>Stock disponible: {item.stock}</p>
             </div>
             <ItemCount stock={item.stock} initial={1} onAdd={agregarProducto}/>
+            {
+                <NavLink className={({ isActive }) => isActive === true ? 'claseActiva' : 'claseInActiva'} to='/cart'>
+                    <button className='btn btn-dark'>Terminar Compra</button></NavLink>
+            }
         </div>
     );
 };

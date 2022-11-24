@@ -27,7 +27,6 @@ export const ItemListContainer = () => {
 
     return (
         <div className="contenedor">
-            {/* <p>item list container</p> */}
             {
             loading ? <p>Cargando productos...</p> :
             <ItemList items={productos} otraPropiedad={123} />
